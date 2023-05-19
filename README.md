@@ -1,7 +1,7 @@
 # Keycloak Node.js Adapter
 
 > **Warning**
-> This package forked from a deprecated keycloak-nodejs-connect package and will not receive continnous support in the future.
+> This package is forked from a deprecated keycloak-nodejs-connect package and will not receive continuous support in the future.
 
 Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services.
 

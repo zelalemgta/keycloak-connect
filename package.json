@@ -1,8 +1,8 @@
 {
-  "name": "keycloak-connect",
-  "version": "21.1.1",
-  "description": "Keycloak Connect Middleware",
-  "homepage": "http://keycloak.org",
+  "name": "keycloak-connect-adapter",
+  "version": "21.1.2",
+  "description": "A Fork of Keycloack-nodejs-connect with improved token validation. Official Keycloak-connect adapter invalidates token from different hostname even though Keycloak frontend URL is provided. This repo is a quick fix for the aforementioned issue.",
+  "homepage": "",
   "main": "keycloak.js",
   "scripts": {
     "lint": "jshint *.js stores/*.js middleware/*.js middleware/auth-utils/*.js example/*.js && standard",
@@ -30,8 +30,7 @@
   ],
   "typings": "keycloak.d.ts",
   "author": {
-    "name": "Red Hat, Inc.",
-    "url": "http://keycloak.org"
+    "name": "Zelalem G. Tessema"   
   },
   "license": "Apache-2.0",
   "dependencies": {
@@ -78,7 +77,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keycloak/keycloak-nodejs-connect.git"
+    "url": "https://github.com/zelalemgta/keycloak-connect.git"
   },
-  "bugs": "https://github.com/keycloak/keycloak-nodejs-connect/issues"
+  "bugs": "https://github.com/zelalemgta/keycloak-connect/issues"
 }
